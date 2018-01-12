@@ -1,0 +1,56 @@
+<runtime>1927<\runtime>
+<pagemetrics>
+	<page>
+		<no>0<\no>
+		<lines>6<\lines>
+		<words>8<\words>
+		<characters>8<\characters>
+	<\page>
+<\pagemetrics>
+<Page id="0">
+	<Line id="0" BBOX=294.209 691.672 298.1806 691.672 >
+		<Word id="0">
+			<Char id="0" mergeId="0" BBOX="294.96915 691.672 2.5384634 4.6306033">1</Char>
+		</Word>
+		<Word id="1">
+			<Char id="8" mergeId="0" BBOX="293.936 690.24 4.5180054 0.0">fraction(-)</Char>
+		</Word>
+		<Word id="2">
+			<Char id="9" mergeId="0" BBOX="313.021 690.24 4.290985 0.0">fraction(-)</Char>
+		</Word>
+	</Line>
+	<Line id="1" BBOX=293.936 684.314 298.45364 684.314 >
+		<Word id="1">
+			<Char id="1" mergeId="0" BBOX="294.27075 684.24426 3.730983 3.1451838">x</Char>
+		</Word>
+	</Line>
+	<Line id="2" BBOX=301.863 687.749 309.6119 687.749 >
+		<Word id="2">
+			<Char id="2" mergeId="0" BBOX="302.4209 686.9221 6.6251287 6.6350913">+</Char>
+		</Word>
+	</Line>
+	<Line id="3" BBOX=313.181 691.672 317.1526 691.672 >
+		<Word id="3">
+			<Char id="3" mergeId="0" BBOX="313.94113 691.672 2.5384634 4.6306033">1</Char>
+		</Word>
+	</Line>
+	<Line id="4" BBOX=313.021 684.314 317.0616 684.314 >
+		<Word id="4">
+			<Char id="4" mergeId="0" BBOX="313.34875 682.89136 3.5775595 4.498101">y</Char>
+		</Word>
+		<Word id="1">
+			<Char id="10" mergeId="0" BBOX="292.74 681.563 25.766998 0.0">fraction(-)</Char>
+		</Word>
+	</Line>
+	<Line id="5" BBOX=294.379 672.239 316.4306 672.239 >
+		<Word id="5">
+			<Char id="5" mergeId="0" BBOX="294.6679 670.19666 4.5927587 6.445802">y</Char>
+		</Word>
+		<Word id="6">
+			<Char id="6" mergeId="0" BBOX="302.6619 674.5304 6.0871487 0.398504">?</Char>
+		</Word>
+		<Word id="7">
+			<Char id="7" mergeId="0" BBOX="312.2254 672.12946 4.224142 4.5130577">z</Char>
+		</Word>
+	</Line>
+<\Page>

@@ -1,0 +1,323 @@
+<runtime>2157<\runtime>
+<pagemetrics>
+	<page>
+		<no>0<\no>
+		<lines>26<\lines>
+		<words>58<\words>
+		<characters>117<\characters>
+	<\page>
+<\pagemetrics>
+<Page id="0">
+	<Line id="0" BBOX=269.703 696.166 278.55875 696.166 >
+		<Word id="0">
+			<CompoundChar id="1" BBOX="271.39664 660.31067 5.4595337 35.845398" Label="unkown">
+				<Char id="0" mergeId="1" BBOX="273.52866 687.10004 3.3275082 9.056004">?</Char>
+				<Char id="1" mergeId="1" BBOX="271.39664 669.1677 3.3275082 18.131931">?</Char>
+				<Char id="2" mergeId="1" BBOX="273.52866 660.31067 3.3275082 9.056004">?</Char>
+			</CompoundChar>
+		</Word>
+	</Line>
+	<Line id="1" BBOX=284.536 687.79706 289.5173 687.79706 >
+		<Word id="1">
+			<Char id="3" mergeId="0" BBOX="285.42267 687.79706 3.287658 6.6350913">1</Char>
+		</Word>
+		<Word id="2">
+			<Char id="4" mergeId="0" BBOX="301.97055 687.5779 3.9750774 6.8542686">5</Char>
+		</Word>
+		<Word id="3">
+			<Char id="5" mergeId="0" BBOX="320.491 687.5779 4.134479 6.8542686">8</Char>
+			<Char id="6" mergeId="0" BBOX="284.92456 675.62286 4.1942544 6.8542686">0</Char>
+		</Word>
+	</Line>
+	<Line id="2" BBOX=301.4724 675.84204 325.05386 675.84204 >
+		<Word id="4">
+			<Char id="7" mergeId="0" BBOX="301.97055 675.84204 3.9750774 6.6350913">2</Char>
+		</Word>
+		<Word id="5">
+			<Char id="8" mergeId="0" BBOX="320.35153 675.84204 4.4134316 6.74468">4</Char>
+		</Word>
+	</Line>
+	<Line id="3" BBOX=284.536 663.887 326.71063 663.887 >
+		<Word id="6">
+			<Char id="9" mergeId="0" BBOX="284.95444 663.66785 4.134479 6.8542686">3</Char>
+		</Word>
+		<Word id="7">
+			<Char id="10" mergeId="0" BBOX="301.89084 663.66785 4.134479 6.8542686">3</Char>
+		</Word>
+		<Word id="8">
+			<Char id="11" mergeId="0" BBOX="318.5184 665.75 2.640089 0.5778308">-</Char>
+			<Char id="12" mergeId="0" BBOX="322.14777 663.66785 4.134479 6.8542686">8</Char>
+		</Word>
+	</Line>
+	<Line id="4" BBOX=332.68903 696.166 341.54477 696.166 >
+		<Word id="9">
+			<CompoundChar id="12" BBOX="334.38266 660.31067 5.4595337 35.845398" Label="unkown">
+				<Char id="13" mergeId="12" BBOX="334.38266 687.10004 3.3275082 9.056004">?</Char>
+				<Char id="14" mergeId="12" BBOX="336.51468 669.1677 3.3275082 18.131931">?</Char>
+				<Char id="15" mergeId="12" BBOX="334.38266 660.31067 3.3275082 9.056004">?</Char>
+			</CompoundChar>
+		</Word>
+	</Line>
+	<Line id="5" BBOX=298.64203 636.999 304.17725 636.999 >
+		<Word id="10">
+			<Char id="16" mergeId="0" BBOX="299.19992 614.8621 8.836826 22.136896">?</Char>
+		</Word>
+	</Line>
+	<Line id="6" BBOX=308.60403 634.536 312.10767 634.536 >
+		<Word id="11">
+			<Char id="17" mergeId="0" BBOX="309.0643 634.46625 2.824389 4.9095554">b</Char>
+		</Word>
+	</Line>
+	<Line id="7" BBOX=304.17703 614.361 308.4987 614.361 >
+		<Word id="12">
+			<Char id="18" mergeId="0" BBOX="304.60245 614.29126 3.556638 3.1451838">a</Char>
+		</Word>
+	</Line>
+	<Line id="8" BBOX=276.90402 587.601 288.94098 587.601 >
+		<Word id="13">
+			<Char id="19" mergeId="0" BBOX="277.29456 587.601 1.5202885 4.700341">i</Char>
+			<Char id="20" mergeId="0" BBOX="279.53595 587.601 3.737957 3.075446">n</Char>
+			<Char id="21" mergeId="0" BBOX="283.87366 587.601 2.4617515 4.9095554">f</Char>
+			<Char id="22" mergeId="0" BBOX="275.1079 570.66437 13.260221 13.947639">?</Char>
+		</Word>
+	</Line>
+	<Line id="9" BBOX=274.44202 563.513 289.04764 563.513 >
+		<Word id="14">
+			<Char id="23" mergeId="0" BBOX="274.77676 563.44324 3.730983 3.1451838">x</Char>
+			<Char id="24" mergeId="0" BBOX="279.44818 564.32196 5.132717 1.8759522">=</Char>
+			<Char id="25" mergeId="0" BBOX="285.5154 563.513 3.0824196 4.6306033">2</Char>
+		</Word>
+	</Line>
+	<Line id="10" BBOX=290.708 575.147 336.8056 575.147 >
+		<Word id="15">
+			<Char id="26" mergeId="0" BBOX="290.99692 575.0374 4.9613748 4.5130577">x</Char>
+		</Word>
+		<Word id="16">
+			<Char id="27" mergeId="0" BBOX="299.1729 574.32007 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="17">
+			<Char id="28" mergeId="0" BBOX="309.07376 575.147 3.9750774 6.6350913">2</Char>
+		</Word>
+		<Word id="18">
+			<Char id="29" mergeId="0" BBOX="317.15393 574.7485 6.0871487 5.778308">></Char>
+		</Word>
+		<Word id="19">
+			<Char id="30" mergeId="0" BBOX="327.72968 575.147 3.287658 6.6350913">1</Char>
+			<Char id="31" mergeId="0" BBOX="332.21286 574.9278 4.1942544 6.8542686">0</Char>
+		</Word>
+		<Word id="5">
+			<Char id="117" mergeId="0" BBOX="295.588 540.62 30.657013 0.0">fraction(-)</Char>
+		</Word>
+	</Line>
+	<Line id="11" BBOX=287.77002 535.922 291.16028 535.922 >
+		<Word id="20">
+			<CompoundChar id="29" BBOX="286.72092 528.8644 9.065979 11.955139" Label="unkown">
+				<Char id="32" mergeId="29" BBOX="288.16852 535.81244 2.590276 3.4271343">3</Char>
+			</CompoundChar>
+		</Word>
+	</Line>
+	<Line id="12" BBOX=285.62503 540.421 295.58762 540.421 >
+		<Word id="21">
+			<CompoundChar id="29" BBOX="286.72092 528.8644 9.065979 11.955139" Label="unkown">
+				<Char id="33" mergeId="29" BBOX="286.72092 528.8644 9.065966 11.95512">?</Char>
+			</CompoundChar>
+		</Word>
+	</Line>
+	<Line id="13" BBOX=295.588 530.636 325.7476 530.636 >
+		<Word id="22">
+			<Char id="34" mergeId="0" BBOX="295.9865 530.5264 4.5628705 4.5130577">a</Char>
+			<Char id="35" mergeId="0" BBOX="301.29337 533.514 3.0824196 4.6306033">2</Char>
+		</Word>
+		<Word id="23">
+			<Char id="36" mergeId="0" BBOX="308.0959 529.8091 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="24">
+			<Char id="37" mergeId="0" BBOX="317.96823 530.5264 3.6662366 7.023633">b</Char>
+			<Char id="38" mergeId="0" BBOX="322.21536 533.514 3.0824196 4.6306033">2</Char>
+		</Word>
+		<Word id="3">
+			<Char id="118" mergeId="0" BBOX="305.516 507.345 10.800995 0.0">fraction(-)</Char>
+		</Word>
+		<Word id="4">
+			<Char id="119" mergeId="0" BBOX="311.051 502.226 5.265991 0.0">fraction(-)</Char>
+		</Word>
+	</Line>
+	<Line id="14" BBOX=297.698 499.65997 301.08826 499.65997 >
+		<Word id="25">
+			<CompoundChar id="35" BBOX="296.6489 489.6118 9.065979 17.932678" Label="unkown">
+				<Char id="39" mergeId="35" BBOX="298.0118 499.65997 2.7596402 3.37234">4</Char>
+			</CompoundChar>
+		</Word>
+	</Line>
+	<Line id="15" BBOX=295.553 507.14597 311.05084 507.14597 >
+		<Word id="26">
+			<CompoundChar id="35" BBOX="296.6489 489.6118 9.065979 17.932678" Label="unkown">
+				<Char id="40" mergeId="35" BBOX="296.6489 489.6118 9.065966 17.93268">?</Char>
+			</CompoundChar>
+			<Char id="41" mergeId="0" BBOX="303.47626 492.46292 7.770828 9.9626">?</Char>
+		</Word>
+	</Line>
+	<Line id="16" BBOX=311.051 494.365 316.31723 494.365 >
+		<Word id="27">
+			<Char id="42" mergeId="0" BBOX="311.4495 494.2554 4.5628705 4.5130577">a</Char>
+		</Word>
+	</Line>
+	<Line id="17" BBOX=287.29 466.31 292.82523 466.31 >
+		<Word id="28">
+			<Char id="43" mergeId="0" BBOX="287.8479 444.1731 8.836826 22.136896">?</Char>
+		</Word>
+	</Line>
+	<Line id="18" BBOX=297.25302 463.847 300.75665 463.847 >
+		<Word id="29">
+			<Char id="44" mergeId="0" BBOX="297.7133 463.77725 2.824389 4.9095554">b</Char>
+		</Word>
+	</Line>
+	<Line id="19" BBOX=292.825 443.672 297.14667 443.672 >
+		<Word id="30">
+			<Char id="45" mergeId="0" BBOX="293.25043 443.60226 3.556638 3.1451838">a</Char>
+		</Word>
+	</Line>
+	<Line id="20" BBOX=302.915 452.75 323.95718 452.75 >
+		<Word id="31">
+			<Char id="46" mergeId="0" BBOX="303.20392 452.6404 4.9613748 4.5130577">x</Char>
+			<Char id="47" mergeId="0" BBOX="309.04837 456.863 3.0824196 4.6306033">2</Char>
+			<Char id="48" mergeId="0" BBOX="313.4765 452.6404 4.7421975 7.023633">d</Char>
+			<Char id="49" mergeId="0" BBOX="318.55246 452.6404 4.9613748 4.5130577">x</Char>
+		</Word>
+	</Line>
+	<Line id="21" BBOX=294.412 416.33002 316.8339 416.33002 >
+		<Word id="32">
+			<Char id="50" mergeId="0" BBOX="294.8105 416.22043 4.5628705 4.5130577">a</Char>
+		</Word>
+		<Word id="33">
+			<Char id="51" mergeId="0" BBOX="302.4499 415.5031 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="34">
+			<Char id="52" mergeId="0" BBOX="312.73926 416.33002 3.287658 6.6350913">1</Char>
+		</Word>
+		<Word id="3">
+			<Char id="120" mergeId="0" BBOX="294.412 412.081 22.424011 0.0">fraction(-)</Char>
+		</Word>
+	</Line>
+	<Line id="22" BBOX=303.486 402.757 307.76193 402.757 >
+		<Word id="35">
+			<Char id="53" mergeId="0" BBOX="303.95422 402.6474 3.6662366 7.023633">b</Char>
+		</Word>
+	</Line>
+	<Line id="23" BBOX=250.745 370.87598 360.50363 370.87598 >
+		<Word id="36">
+			<Char id="54" mergeId="0" BBOX="250.4262 368.94324 5.200477 6.3362136">p</Char>
+		</Word>
+		<Word id="37">
+			<Char id="55" mergeId="0" BBOX="258.5289 370.04907 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="38">
+			<Char id="56" mergeId="0" BBOX="268.08246 368.83365 4.572833 6.445802">g</Char>
+		</Word>
+		<Word id="39">
+			<Char id="57" mergeId="0" BBOX="275.8149 370.04907 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="40">
+			<Char id="58" mergeId="0" BBOX="285.45813 370.87598 6.7745676 6.74468">T</Char>
+		</Word>
+		<Word id="41">
+			<Char id="59" mergeId="0" BBOX="295.19693 370.04907 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="42">
+			<Char id="60" mergeId="0" BBOX="304.88995 370.7664 2.6301262 6.694867">i</Char>
+		</Word>
+		<Word id="43">
+			<Char id="61" mergeId="0" BBOX="310.80493 370.04907 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="44">
+			<Char id="62" mergeId="0" BBOX="320.60855 368.94324 4.104591 6.3362136">q</Char>
+		</Word>
+		<Word id="45">
+			<Char id="63" mergeId="0" BBOX="327.78696 370.04907 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="46">
+			<Char id="64" mergeId="0" BBOX="337.7191 368.83365 4.9713373 9.065966">f</Char>
+		</Word>
+		<Word id="47">
+			<Char id="65" mergeId="0" BBOX="345.91296 370.04907 6.6251287 6.6350913">+</Char>
+		</Word>
+		<Word id="48">
+			<Char id="66" mergeId="0" BBOX="355.71658 370.7664 4.7421975 7.023633">d</Char>
+		</Word>
+	</Line>
+	<Line id="24" BBOX=148.71208 348.95898 412.61328 348.95898 >
+		<Word id="49">
+			<Char id="67" mergeId="0" BBOX="149.07074 348.95898 6.4657273 6.74468">T</Char>
+			<Char id="68" mergeId="0" BBOX="156.22588 348.95898 5.0111876 6.9140444">h</Char>
+			<Char id="69" mergeId="0" BBOX="161.72124 348.8494 3.8555262 4.572833">e</Char>
+		</Word>
+		<Word id="50">
+			<Char id="70" mergeId="0" BBOX="170.93454 348.95898 6.2864003 6.74468">T</Char>
+			<Char id="71" mergeId="0" BBOX="176.68895 348.8494 3.5267603 4.5130577">e</Char>
+			<Char id="72" mergeId="0" BBOX="180.89316 348.8494 3.4171717 4.5130577">s</Char>
+			<Char id="73" mergeId="0" BBOX="185.1163 348.8494 2.8094532 6.346176">t</Char>
+		</Word>
+		<Word id="51">
+			<Char id="74" mergeId="0" BBOX="192.68472 348.7896 6.107074 7.173072">S</Char>
+			<Char id="75" mergeId="0" BBOX="199.35966 348.87927 4.2440677 4.582796">e</Char>
+			<Char id="76" mergeId="0" BBOX="204.333 348.87927 6.047298 4.582796">n</Char>
+			<Char id="77" mergeId="0" BBOX="210.94817 348.87927 3.2677326 6.4856524">t</Char>
+			<Char id="78" mergeId="0" BBOX="214.97305 348.87927 4.2440677 4.582796">e</Char>
+			<Char id="79" mergeId="0" BBOX="219.94638 348.87927 6.047298 4.582796">n</Char>
+			<Char id="80" mergeId="0" BBOX="226.72095 348.87927 4.2739553 4.582796">c</Char>
+			<Char id="81" mergeId="0" BBOX="231.46513 348.87927 4.2440677 4.582796">e</Char>
+		</Word>
+		<Word id="52">
+			<Char id="82" mergeId="0" BBOX="240.399 348.7398 6.067223 7.2428102">C</Char>
+			<Char id="83" mergeId="0" BBOX="247.31503 348.8494 4.4134316 4.572833">o</Char>
+			<Char id="84" mergeId="0" BBOX="252.33618 348.95898 5.0111876 4.403469">n</Char>
+			<Char id="85" mergeId="0" BBOX="257.46295 348.8494 3.1182938 6.2365875">t</Char>
+			<Char id="86" mergeId="0" BBOX="261.56653 348.8494 4.4931326 4.572833">a</Char>
+			<Char id="87" mergeId="0" BBOX="266.45816 348.95898 2.1319964 6.6649795">i</Char>
+			<Char id="88" mergeId="0" BBOX="269.21582 348.95898 5.0111876 4.403469">n</Char>
+			<Char id="89" mergeId="0" BBOX="274.761 348.95898 2.1319964 6.6649795">i</Char>
+			<Char id="90" mergeId="0" BBOX="277.51865 348.95898 5.0111876 4.403469">n</Char>
+			<Char id="91" mergeId="0" BBOX="283.014 346.90668 4.552908 6.5653534">g</Char>
+		</Word>
+		<Word id="53">
+			<Char id="92" mergeId="0" BBOX="291.38257 348.95898 6.694867 6.8044558">D</Char>
+			<Char id="93" mergeId="0" BBOX="298.97308 348.95898 2.1319964 6.6649795">i</Char>
+			<Char id="94" mergeId="0" BBOX="301.6809 348.95898 5.9875226 7.023633">?</Char>
+			<Char id="95" mergeId="0" BBOX="307.50208 348.8494 3.8555262 4.572833">e</Char>
+			<Char id="96" mergeId="0" BBOX="311.92944 348.95898 3.3474336 4.403469">r</Char>
+			<Char id="97" mergeId="0" BBOX="315.8318 348.8494 3.8555262 4.572833">e</Char>
+			<Char id="98" mergeId="0" BBOX="320.299 348.95898 5.0111876 4.403469">n</Char>
+			<Char id="99" mergeId="0" BBOX="325.43573 348.8494 3.1182938 6.2365875">t</Char>
+		</Word>
+		<Word id="54">
+			<Char id="100" mergeId="0" BBOX="333.0757 348.8494 5.080926 7.0535207">S</Char>
+			<Char id="101" mergeId="0" BBOX="339.01245 348.8992 3.5964985 6.3860264">t</Char>
+			<Char id="102" mergeId="0" BBOX="343.15884 346.96646 5.5591307 6.415914">y</Char>
+			<Char id="103" mergeId="0" BBOX="349.4542 348.95898 2.4507995 6.9140444">l</Char>
+			<Char id="104" mergeId="0" BBOX="352.48685 348.8992 4.602721 4.572833">e</Char>
+			<Char id="105" mergeId="0" BBOX="357.79788 348.8992 3.7559001 4.572833">s</Char>
+		</Word>
+		<Word id="55">
+			<Char id="106" mergeId="0" BBOX="365.54007 348.8494 4.4134316 4.572833">o</Char>
+			<Char id="107" mergeId="0" BBOX="370.57117 348.95898 3.2278824 7.023633">f</Char>
+		</Word>
+		<Word id="56">
+			<Char id="108" mergeId="0" BBOX="376.7838 348.7398 9.872936 7.023633">W</Char>
+			<Char id="109" mergeId="0" BBOX="386.2961 348.95898 3.3474336 4.403469">r</Char>
+			<Char id="110" mergeId="0" BBOX="390.24826 348.95898 2.1319964 6.6649795">i</Char>
+			<Char id="111" mergeId="0" BBOX="392.8764 348.8494 3.1182938 6.2365875">t</Char>
+			<Char id="112" mergeId="0" BBOX="396.89032 348.95898 2.1319964 6.6649795">i</Char>
+			<Char id="113" mergeId="0" BBOX="399.64798 348.95898 5.0111876 4.403469">n</Char>
+			<Char id="114" mergeId="0" BBOX="405.14334 346.90668 4.552908 6.5653534">g</Char>
+			<Char id="115" mergeId="0" BBOX="410.70245 348.95898 1.0560355 1.0560355">.</Char>
+		</Word>
+		<Word id="8">
+			<Char id="121" mergeId="0" BBOX="148.712 345.627 263.899 0.0">fraction(-)</Char>
+		</Word>
+	</Line>
+	<Line id="25" BBOX=303.133 139.255 308.1143 139.255 >
+		<Word id="57">
+			<Char id="116" mergeId="0" BBOX="304.01965 139.255 3.287658 6.6350913">1</Char>
+		</Word>
+	</Line>
+<\Page>

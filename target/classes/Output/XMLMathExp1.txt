@@ -1,0 +1,70 @@
+<runtime>2057<\runtime>
+<pagemetrics>
+	<page>
+		<no>0<\no>
+		<lines>8<\lines>
+		<words>10<\words>
+		<characters>20<\characters>
+	<\page>
+<\pagemetrics>
+<Page id="0">
+	<Line id="0" BBOX=252.851 688.46 258.03653 688.46 >
+		<Word id="0">
+			<Char id="0" mergeId="0" BBOX="253.2495 688.35046 4.7421975 7.023633">d</Char>
+		</Word>
+		<Word id="1">
+			<Char id="20" mergeId="0" BBOX="250.004 684.211 10.878998 0.0">fraction(-)</Char>
+		</Word>
+	</Line>
+	<Line id="1" BBOX=250.004 674.886 260.88315 674.886 >
+		<Word id="1">
+			<Char id="1" mergeId="0" BBOX="250.4025 674.7764 4.7421975 7.023633">d</Char>
+			<Char id="2" mergeId="0" BBOX="255.47844 674.7764 4.9613748 4.5130577">x</Char>
+		</Word>
+	</Line>
+	<Line id="2" BBOX=263.73898 695.768 276.60822 695.768 >
+		<Word id="2">
+			<Char id="3" mergeId="0" BBOX="265.81122 672.26624 4.901599 23.900276">(</Char>
+			<Char id="4" mergeId="0" BBOX="271.6309 673.1441 8.836826 22.136896">?</Char>
+		</Word>
+	</Line>
+	<Line id="3" BBOX=281.035 692.818 285.55264 692.818 >
+		<Word id="3">
+			<Char id="5" mergeId="0" BBOX="281.36975 692.7482 3.730983 3.1451838">x</Char>
+		</Word>
+	</Line>
+	<Line id="4" BBOX=276.607 672.643 280.57858 672.643 >
+		<Word id="4">
+			<Char id="6" mergeId="0" BBOX="276.96964 672.50354 3.2358432 4.770079">0</Char>
+		</Word>
+	</Line>
+	<Line id="5" BBOX=287.712 681.72003 319.66315 681.72003 >
+		<Word id="5">
+			<Char id="7" mergeId="0" BBOX="288.24002 679.6777 4.9713373 9.065966">f</Char>
+			<Char id="8" mergeId="0" BBOX="294.64832 679.2294 2.3113232 9.9626">(</Char>
+			<Char id="9" mergeId="0" BBOX="297.82492 681.6105 5.120776 4.5130577">u</Char>
+			<Char id="10" mergeId="0" BBOX="303.8069 679.2294 2.3113232 9.9626">)</Char>
+		</Word>
+		<Word id="6">
+			<Char id="11" mergeId="0" BBOX="309.17252 681.6105 4.7421975 7.023633">d</Char>
+			<Char id="12" mergeId="0" BBOX="314.24847 681.6105 5.120776 4.5130577">u</Char>
+		</Word>
+	</Line>
+	<Line id="6" BBOX=319.66302 695.768 326.9965 695.768 >
+		<Word id="7">
+			<Char id="13" mergeId="0" BBOX="320.01172 672.26624 4.901599 23.900276">)</Char>
+		</Word>
+	</Line>
+	<Line id="7" BBOX=329.76404 681.72003 362.43964 681.72003 >
+		<Word id="8">
+			<Char id="14" mergeId="0" BBOX="330.32193 683.04504 6.6251287 2.3312483">=</Char>
+		</Word>
+		<Word id="9">
+			<Char id="15" mergeId="0" BBOX="340.80804 679.6777 4.9713373 9.065966">f</Char>
+			<Char id="16" mergeId="0" BBOX="347.21634 679.2294 2.3113232 9.9626">(</Char>
+			<Char id="17" mergeId="0" BBOX="350.39294 681.6105 4.9613748 4.5130577">x</Char>
+			<Char id="18" mergeId="0" BBOX="356.3659 679.2294 2.3113232 9.9626">)</Char>
+			<Char id="19" mergeId="0" BBOX="360.5288 681.72003 1.0560355 1.0560355">.</Char>
+		</Word>
+	</Line>
+<\Page>
