@@ -81,7 +81,8 @@ class DisplayPDF {
                     xmlFormat+="</Char>\n";
                     */
                     xmlFormat=compoundIndent+"\t\t\t<Char id=\""+word.characters.get(charIter).charId+"\" mergeId=\""+word.characters.get(charIter).mergeId+"\" "+
-                            "BBOX=\""+word.characters.get(charIter).boundingBox.startX+" "+
+                            "isItallic=\""+word.characters.get(charIter).isItallic+"\" "+
+                    		"BBOX=\""+word.characters.get(charIter).boundingBox.startX+" "+
                             +word.characters.get(charIter).boundingBox.startY+" "+
                             +word.characters.get(charIter).boundingBox.width+" "+
                             +word.characters.get(charIter).boundingBox.height+"\">"+

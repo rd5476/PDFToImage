@@ -27,23 +27,32 @@ import org.apache.pdfbox.text.TextPosition;
 public class RahulMain {
 
 	public static void main(String[] args) throws InvalidPasswordException, IOException {
+//		File[] files = new File(pdfFileSource).listFiles();
+//		ArrayList< String> pdfFiles = new ArrayList<>();
+//		//If this pathname does not denote a directory, then listFiles() returns null. 
+//
+//		for (File file : files) {
+//		    if (file.isFile()) {
+//		    	pdfFiles.add(file.getName());
+//		    }
+//		}
+		CreateImage(args);
+	}
+	public static void CreateImage(String[] args) throws InvalidPasswordException, IOException {
 		// TODO Auto-generated method stub
-		ParseXML px =new ParseXML();
-		px.readXMLFile("C:\\Users\\Rahul\\eclipse-workspace\\XMLToImage\\src\\Output\\XMLMathExp5.txt");
 		
-		for(String s:px.pagewise.keySet()) {
-			System.out.println("Page id : "+s);
-			System.out.println(px.pagewise.get(s).keySet().size());       //.pagewise[s].keySet().size());
-		}
 		
 		
 		///////////////////////////////////////////////////////////////////
 		//	Read pdf 
 		///////////////////////////////////////////////////////////////////
-		String pdfFileName = "C:\\Users\\Rahul\\eclipse-workspace\\XMLToImage\\src\\MathExp5.pdf";
-		
+		//String pdfFileSource = "C:\\Users\\Rahul\\eclipse-workspace\\XMLToImage\\src\\MathExp5.pdf";
+		String pdfFileSource = args[0];
+		String[] fileName = pdfFileSource.split("\\\\");
+		String outputFileName = fileName[fileName.length-1];
+		String xmlFileSource = args[1];
 		//Load File
-		File file = new File(pdfFileName);
+		File file = new File(pdfFileSource);
         FileInputStream inpStream = new FileInputStream(file);
         PDDocument documnet = PDDocument.load(inpStream);
 		
@@ -51,8 +60,19 @@ public class RahulMain {
 	    ArrayList<PageStructure> allPages = reader.readPdf();
 	    
 	    PageStructure pg1 = allPages.get(0);
-	    HashMap<String, XMLCharacter> allCharID= px.pagewise.get("0");
 	    HashMap<Integer,characterInfo> pageCharacters = pg1.pageCharacters;
+	    ParseXML px =new ParseXML();
+	    px.pageCharacter = pg1.pageCharacters;
+		//px.readXMLFile("C:\\Users\\Rahul\\eclipse-workspace\\XMLToImage\\src\\Output\\XMLMathExp5.txt");
+		px.readXMLFile(xmlFileSource);
+		for(String s:px.pagewise.keySet()) {
+			System.out.println("Page id : "+s);
+			System.out.println(px.pagewise.get(s).keySet().size());       //.pagewise[s].keySet().size());
+		}
+	    	    	    	  
+	    //Current XML file has only 1 page
+	    HashMap<String, XMLCharacter> allCharID= px.pagewise.get("0");
+	    
 	    
 	    
 	    int pageNum =0;
@@ -65,14 +85,14 @@ public class RahulMain {
 	    	Integer i = Integer.parseInt(k);
 	    	
 	    	characterInfo character = pageCharacters.get(i);
-	    	System.out.println(character.value);
+	  //  	System.out.println(character.value);
 	    	TextPosition text = character.charInfo;
 	    	if(text == null) {
-	    		System.out.println("Fraction found");
+	    //		System.out.println("Fraction found");
 	    		
 	    		startX = character.boundingBox.startX;
 	    		startY = character.boundingBox.startY;
-	    		System.out.println(startX+" "+startY+" "+(character.boundingBox.width+startX)+" "+(character.boundingBox.height+startY));
+	    	//	System.out.println(startX+" "+startY+" "+(character.boundingBox.width+startX)+" "+(character.boundingBox.height+startY));
 	    		ArrayList<Integer> line = new ArrayList<>();
 	    		line.add((int) (startX/(0.01f))+500);
 	    		line.add((int) (startY/(0.01f)));
@@ -125,7 +145,7 @@ public class RahulMain {
                 startX = startX - (float) rightMove;
             }
 //////////////////////////////////////////////////////////////////////////////////////////////
-           System.out.println(glyph.unicode+"--"+startX+"--"+startY+"--"+widthRatio+" -- "+fontSize);
+     //      System.out.println(glyph.unicode+"--"+startX+"--"+startY+"--"+widthRatio+" -- "+fontSize);
           
            DrawSymbol temp = new DrawSymbol(glyph,(float)( startX/widthRatio),(float) (startY/widthRatio),fontSize) ;
         
@@ -165,10 +185,10 @@ public class RahulMain {
         		}
         	
         }
-        System.out.println("base "+baseY);
-        System.out.println("MAX Y OBJ "+maxY.obj.unicode);
+  //      System.out.println("base "+baseY);
+  //      System.out.println("MAX Y OBJ "+maxY.obj.unicode);
         
-        System.out.println("Height --"+(maxY.startY+maxY.height)+" - " +maxY.height);//maxY.startY-baseY+
+  //      System.out.println("Height --"+(maxY.startY+maxY.height)+" - " +maxY.height);//maxY.startY-baseY+
         BufferedImage image = new BufferedImage((int) (expressionComponents.get(expressionComponents.size()-1).startX+2000-base), (int)(maxY.startY-baseY+maxY.height), BufferedImage.TYPE_INT_BGR);
     //    BufferedImage image = new BufferedImage(100,100,BufferedImage.TYPE_INT_BGR);
         //maxY.startY-baseY+maxY.height
@@ -199,20 +219,20 @@ public class RahulMain {
         	graphic.drawLine((int)(a.get(0)-base),(int)( a.get(1)-baseY), (int)(a.get(2)-base), (int) (a.get(3)-baseY));  //Line((int)(a.get(0)-base),(int)( a.get(1)-baseY),(int)( a.get(2)-base),(int) (a.get(3)-baseY));
         	
         	//graphic.fillRect((int)(a.get(0)-base), (int)( a.get(1)-baseY), (int)(a.get(2)-base),(int) (a.get(3)-baseY));
-        	System.out.println("Line "+(a.get(0)-base)+" ");
+   //     	System.out.println("Line "+(a.get(0)-base)+" ");
         }
         //Flip the image
         AffineTransform tx = AffineTransform.getScaleInstance(1, -1);
-        System.out.println(tx.toString());
+   //     System.out.println(tx.toString());
       //  System.out.println("Transform = "+ (int)(maxY.startY+maxY.height));
         tx.translate(0, -(int)(maxY.startY+maxY.height+50));
-        System.out.println(tx.toString());
+     //   System.out.println(tx.toString());
         AffineTransformOp op = new AffineTransformOp(tx, AffineTransformOp.TYPE_NEAREST_NEIGHBOR);
         
         image = op.filter(image, null);
         
-
-        File output = new File("Rahuloutput.png");
+        
+        File output = new File(outputFileName+".png");
         ImageIO.write(image, "png", output);
 
 	    	

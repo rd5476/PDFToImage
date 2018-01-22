@@ -68,6 +68,7 @@ class characterInfo{
     int mergeId;
     int wordID;
     int lineID;
+    boolean isItallic=false;;
     org.apache.pdfbox.text.TextPosition charInfo;
     drawGlyph glyph;
 
@@ -80,6 +81,8 @@ class characterInfo{
         this.wordID=wordID;
         this.lineID=lineID;
         this.glyph=glyph;
+        if(text!=null)
+        	this.isItallic = (0 != text.getFont().getFontDescriptor().getItalicAngle());
     }
 
 }
